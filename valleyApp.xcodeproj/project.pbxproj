@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2CF1652017F57B00C00866 /* campusAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2CF1642017F57B00C00866 /* campusAnnotations.swift */; };
+		0F9299372016B7EC005EC04D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9299362016B7EC005EC04D /* AppDelegate.swift */; };
+		0F9299392016B7EC005EC04D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9299382016B7EC005EC04D /* ViewController.swift */; };
+		0F92993C2016B7EC005EC04D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F92993A2016B7EC005EC04D /* Main.storyboard */; };
+		0F92993F2016B7EC005EC04D /* valleyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F92993D2016B7EC005EC04D /* valleyApp.xcdatamodeld */; };
+		0F9299412016B7EC005EC04D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F9299402016B7EC005EC04D /* Assets.xcassets */; };
+		0F9299442016B7EC005EC04D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F9299422016B7EC005EC04D /* LaunchScreen.storyboard */; };
+		0F92994C2016BA10005EC04D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0F92994B2016BA10005EC04D /* GoogleService-Info.plist */; };
+		0FAA1E862016BE7D009A0276 /* GFBase32Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E7B2016BE7C009A0276 /* GFBase32Utils.m */; };
+		0FAA1E872016BE7D009A0276 /* GeoFire.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E7D2016BE7C009A0276 /* GeoFire.m */; };
+		0FAA1E882016BE7D009A0276 /* GFGeoHashQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E7E2016BE7C009A0276 /* GFGeoHashQuery.m */; };
+		0FAA1E892016BE7D009A0276 /* GFQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E7F2016BE7C009A0276 /* GFQuery.m */; };
+		0FAA1E8A2016BE7D009A0276 /* GFGeoHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E802016BE7C009A0276 /* GFGeoHash.m */; };
+		0FAA1E8D20170E4E009A0276 /* UIView + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E8C20170E4E009A0276 /* UIView + extensions.swift */; };
+		0FAA1E8F201713B1009A0276 /* UIColor + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E8E201713B1009A0276 /* UIColor + extensions.swift */; };
+		0FAA1E9120171D7C009A0276 /* UIViewController + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E9020171D7C009A0276 /* UIViewController + extensions.swift */; };
+		0FE1797C201CF2F400559D3D /* All Star Resort.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE1797B201CF2F300559D3D /* All Star Resort.ttf */; };
+		94BA5F024EA4A3632608CF19 /* Pods_valleyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7183E00AC25F0CBCC3F1745 /* Pods_valleyApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F2CF1642017F57B00C00866 /* campusAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campusAnnotations.swift; sourceTree = "<group>"; };
+		0F9299332016B7EC005EC04D /* valleyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = valleyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F9299362016B7EC005EC04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F9299382016B7EC005EC04D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F92993B2016B7EC005EC04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F92993E2016B7EC005EC04D /* valleyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = valleyApp.xcdatamodel; sourceTree = "<group>"; };
+		0F9299402016B7EC005EC04D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F9299432016B7EC005EC04D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0F9299452016B7EC005EC04D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F92994B2016BA10005EC04D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0FAA1E752016BE7C009A0276 /* GeoFire-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire-Prefix.pch"; sourceTree = "<group>"; };
+		0FAA1E772016BE7C009A0276 /* GFBase32Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFBase32Utils.h; sourceTree = "<group>"; };
+		0FAA1E782016BE7C009A0276 /* GFGeoHashQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHashQuery.h; sourceTree = "<group>"; };
+		0FAA1E792016BE7C009A0276 /* GFGeoHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFGeoHash.h; sourceTree = "<group>"; };
+		0FAA1E7A2016BE7C009A0276 /* GFQuery+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GFQuery+Private.h"; sourceTree = "<group>"; };
+		0FAA1E7B2016BE7C009A0276 /* GFBase32Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFBase32Utils.m; sourceTree = "<group>"; };
+		0FAA1E7C2016BE7C009A0276 /* GeoFire+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GeoFire+Private.h"; sourceTree = "<group>"; };
+		0FAA1E7D2016BE7C009A0276 /* GeoFire.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeoFire.m; sourceTree = "<group>"; };
+		0FAA1E7E2016BE7C009A0276 /* GFGeoHashQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHashQuery.m; sourceTree = "<group>"; };
+		0FAA1E7F2016BE7C009A0276 /* GFQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFQuery.m; sourceTree = "<group>"; };
+		0FAA1E802016BE7C009A0276 /* GFGeoHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GFGeoHash.m; sourceTree = "<group>"; };
+		0FAA1E822016BE7C009A0276 /* GFRegionQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFRegionQuery.h; sourceTree = "<group>"; };
+		0FAA1E832016BE7C009A0276 /* GeoFire.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeoFire.h; sourceTree = "<group>"; };
+		0FAA1E842016BE7C009A0276 /* GFQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFQuery.h; sourceTree = "<group>"; };
+		0FAA1E852016BE7C009A0276 /* GFCircleQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFCircleQuery.h; sourceTree = "<group>"; };
+		0FAA1E8B2016C25C009A0276 /* PokeFinder-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokeFinder-Bridge-Header.h"; sourceTree = "<group>"; };
+		0FAA1E8C20170E4E009A0276 /* UIView + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + extensions.swift"; sourceTree = "<group>"; };
+		0FAA1E8E201713B1009A0276 /* UIColor + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + extensions.swift"; sourceTree = "<group>"; };
+		0FAA1E9020171D7C009A0276 /* UIViewController + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extensions.swift"; sourceTree = "<group>"; };
+		0FE1797B201CF2F300559D3D /* All Star Resort.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All Star Resort.ttf"; sourceTree = "<group>"; };
+		4D8AD1A93B4EC816F3215C96 /* Pods-valleyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-valleyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-valleyApp/Pods-valleyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B7183E00AC25F0CBCC3F1745 /* Pods_valleyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_valleyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC1D83AFE68B7E1DDF826DB7 /* Pods-valleyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-valleyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-valleyApp/Pods-valleyApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F9299302016B7EC005EC04D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94BA5F024EA4A3632608CF19 /* Pods_valleyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F92992A2016B7EC005EC04D = {
+			isa = PBXGroup;
+			children = (
+				0F9299352016B7EC005EC04D /* valleyApp */,
+				0F9299342016B7EC005EC04D /* Products */,
+				142EAB04474C51B049A464B5 /* Pods */,
+				24CAF27CD57FCCA8FD218375 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0F9299342016B7EC005EC04D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F9299332016B7EC005EC04D /* valleyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9299352016B7EC005EC04D /* valleyApp */ = {
+			isa = PBXGroup;
+			children = (
+				0FAA1E742016BE7C009A0276 /* GeoFire */,
+				0F9299362016B7EC005EC04D /* AppDelegate.swift */,
+				0F9299382016B7EC005EC04D /* ViewController.swift */,
+				0F92993A2016B7EC005EC04D /* Main.storyboard */,
+				0F9299402016B7EC005EC04D /* Assets.xcassets */,
+				0FE1797B201CF2F300559D3D /* All Star Resort.ttf */,
+				0F9299422016B7EC005EC04D /* LaunchScreen.storyboard */,
+				0F92994B2016BA10005EC04D /* GoogleService-Info.plist */,
+				0F9299452016B7EC005EC04D /* Info.plist */,
+				0F92993D2016B7EC005EC04D /* valleyApp.xcdatamodeld */,
+				0FAA1E8B2016C25C009A0276 /* PokeFinder-Bridge-Header.h */,
+				0FAA1E8C20170E4E009A0276 /* UIView + extensions.swift */,
+				0FAA1E8E201713B1009A0276 /* UIColor + extensions.swift */,
+				0FAA1E9020171D7C009A0276 /* UIViewController + extensions.swift */,
+				0F2CF1642017F57B00C00866 /* campusAnnotations.swift */,
+			);
+			path = valleyApp;
+			sourceTree = "<group>";
+		};
+		0FAA1E742016BE7C009A0276 /* GeoFire */ = {
+			isa = PBXGroup;
+			children = (
+				0FAA1E752016BE7C009A0276 /* GeoFire-Prefix.pch */,
+				0FAA1E762016BE7C009A0276 /* Implementation */,
+				0FAA1E812016BE7C009A0276 /* API */,
+			);
+			path = GeoFire;
+			sourceTree = "<group>";
+		};
+		0FAA1E762016BE7C009A0276 /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				0FAA1E772016BE7C009A0276 /* GFBase32Utils.h */,
+				0FAA1E782016BE7C009A0276 /* GFGeoHashQuery.h */,
+				0FAA1E792016BE7C009A0276 /* GFGeoHash.h */,
+				0FAA1E7A2016BE7C009A0276 /* GFQuery+Private.h */,
+				0FAA1E7B2016BE7C009A0276 /* GFBase32Utils.m */,
+				0FAA1E7C2016BE7C009A0276 /* GeoFire+Private.h */,
+				0FAA1E7D2016BE7C009A0276 /* GeoFire.m */,
+				0FAA1E7E2016BE7C009A0276 /* GFGeoHashQuery.m */,
+				0FAA1E7F2016BE7C009A0276 /* GFQuery.m */,
+				0FAA1E802016BE7C009A0276 /* GFGeoHash.m */,
+			);
+			path = Implementation;
+			sourceTree = "<group>";
+		};
+		0FAA1E812016BE7C009A0276 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0FAA1E822016BE7C009A0276 /* GFRegionQuery.h */,
+				0FAA1E832016BE7C009A0276 /* GeoFire.h */,
+				0FAA1E842016BE7C009A0276 /* GFQuery.h */,
+				0FAA1E852016BE7C009A0276 /* GFCircleQuery.h */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		142EAB04474C51B049A464B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D8AD1A93B4EC816F3215C96 /* Pods-valleyApp.debug.xcconfig */,
+				FC1D83AFE68B7E1DDF826DB7 /* Pods-valleyApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24CAF27CD57FCCA8FD218375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7183E00AC25F0CBCC3F1745 /* Pods_valleyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F9299322016B7EC005EC04D /* valleyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F9299482016B7EC005EC04D /* Build configuration list for PBXNativeTarget "valleyApp" */;
+			buildPhases = (
+				017552403FAA33A62188FD98 /* [CP] Check Pods Manifest.lock */,
+				0F92992F2016B7EC005EC04D /* Sources */,
+				0F9299302016B7EC005EC04D /* Frameworks */,
+				0F9299312016B7EC005EC04D /* Resources */,
+				ADD36160258B1ABAE2689664 /* [CP] Embed Pods Frameworks */,
+				2D7A457C3E9B585FABD36C31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = valleyApp;
+			productName = valleyApp;
+			productReference = 0F9299332016B7EC005EC04D /* valleyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F92992B2016B7EC005EC04D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Henry Akaeze";
+				TargetAttributes = {
+					0F9299322016B7EC005EC04D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 0F92992E2016B7EC005EC04D /* Build configuration list for PBXProject "valleyApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F92992A2016B7EC005EC04D;
+			productRefGroup = 0F9299342016B7EC005EC04D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F9299322016B7EC005EC04D /* valleyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F9299312016B7EC005EC04D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FE1797C201CF2F400559D3D /* All Star Resort.ttf in Resources */,
+				0F9299442016B7EC005EC04D /* LaunchScreen.storyboard in Resources */,
+				0F92994C2016BA10005EC04D /* GoogleService-Info.plist in Resources */,
+				0F9299412016B7EC005EC04D /* Assets.xcassets in Resources */,
+				0F92993C2016B7EC005EC04D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		017552403FAA33A62188FD98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-valleyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D7A457C3E9B585FABD36C31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-valleyApp/Pods-valleyApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD36160258B1ABAE2689664 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-valleyApp/Pods-valleyApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-valleyApp/Pods-valleyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F92992F2016B7EC005EC04D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAA1E8D20170E4E009A0276 /* UIView + extensions.swift in Sources */,
+				0FAA1E862016BE7D009A0276 /* GFBase32Utils.m in Sources */,
+				0F9299392016B7EC005EC04D /* ViewController.swift in Sources */,
+				0FAA1E8A2016BE7D009A0276 /* GFGeoHash.m in Sources */,
+				0F92993F2016B7EC005EC04D /* valleyApp.xcdatamodeld in Sources */,
+				0FAA1E8F201713B1009A0276 /* UIColor + extensions.swift in Sources */,
+				0F9299372016B7EC005EC04D /* AppDelegate.swift in Sources */,
+				0FAA1E872016BE7D009A0276 /* GeoFire.m in Sources */,
+				0FAA1E9120171D7C009A0276 /* UIViewController + extensions.swift in Sources */,
+				0F2CF1652017F57B00C00866 /* campusAnnotations.swift in Sources */,
+				0FAA1E882016BE7D009A0276 /* GFGeoHashQuery.m in Sources */,
+				0FAA1E892016BE7D009A0276 /* GFQuery.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F92993A2016B7EC005EC04D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F92993B2016B7EC005EC04D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0F9299422016B7EC005EC04D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F9299432016B7EC005EC04D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F9299462016B7EC005EC04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0F9299472016B7EC005EC04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F9299492016B7EC005EC04D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D8AD1A93B4EC816F3215C96 /* Pods-valleyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S3WS8QKUJ;
+				INFOPLIST_FILE = valleyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeit.valleyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "valleyApp/PokeFinder-Bridge-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F92994A2016B7EC005EC04D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC1D83AFE68B7E1DDF826DB7 /* Pods-valleyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8S3WS8QKUJ;
+				INFOPLIST_FILE = valleyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeit.valleyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "valleyApp/PokeFinder-Bridge-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F92992E2016B7EC005EC04D /* Build configuration list for PBXProject "valleyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9299462016B7EC005EC04D /* Debug */,
+				0F9299472016B7EC005EC04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F9299482016B7EC005EC04D /* Build configuration list for PBXNativeTarget "valleyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F9299492016B7EC005EC04D /* Debug */,
+				0F92994A2016B7EC005EC04D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F92993D2016B7EC005EC04D /* valleyApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F92993E2016B7EC005EC04D /* valleyApp.xcdatamodel */,
+			);
+			currentVersion = 0F92993E2016B7EC005EC04D /* valleyApp.xcdatamodel */;
+			path = valleyApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0F92992B2016B7EC005EC04D /* Project object */;
+}
