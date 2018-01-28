@@ -50,9 +50,8 @@ class ViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDeleg
         })
         
         //set UIGesture tap event that hides keyboard on view click
-        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(didTapView(gesture:)))
-        view.addGestureRecognizer(tapGesture)
         
+        addGesture()
         //give views shadows
         buttonsView.layer.shadowOpacity = 0.5
         popUpView.layer.shadowOpacity = 0.5
@@ -90,10 +89,6 @@ class ViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDeleg
         print("HEN Error Occured Getting Location")
     }
     
-    @objc func didTapView(gesture: UITapGestureRecognizer) {
-        // This should hide keyboard for the view.
-        view.endEditing(true)
-    }
     
     @IBAction func groupRideBtnPressed(_ sender: Any) {
         panMap()

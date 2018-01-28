@@ -14,7 +14,7 @@ target 'valleyApp' do
   pod 'FirebaseInstanceID'
   pod 'SwiftKeychainWrapper'
   pod 'Toast-Swift', '~> 3.0.1'
-
-  
+  pod 'YPImagePicker'
+  pod 'PMAlertController'
 
 end

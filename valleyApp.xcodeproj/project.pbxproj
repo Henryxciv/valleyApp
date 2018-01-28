@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F06E924201D26EA007F620C /* CreateActVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F06E923201D26EA007F620C /* CreateActVC.swift */; };
+		0F2AB3D3201D9BA200105B4B /* DataServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2AB3D2201D9BA200105B4B /* DataServices.swift */; };
+		0F2AB3D5201DA27500105B4B /* objectClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2AB3D4201DA27500105B4B /* objectClasses.swift */; };
+		0F2AB3D7201E1C8800105B4B /* UITextField + extesions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2AB3D6201E1C8800105B4B /* UITextField + extesions.swift */; };
 		0F2CF1652017F57B00C00866 /* campusAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F2CF1642017F57B00C00866 /* campusAnnotations.swift */; };
 		0F9299372016B7EC005EC04D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9299362016B7EC005EC04D /* AppDelegate.swift */; };
 		0F9299392016B7EC005EC04D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9299382016B7EC005EC04D /* ViewController.swift */; };
@@ -24,10 +28,16 @@
 		0FAA1E8F201713B1009A0276 /* UIColor + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E8E201713B1009A0276 /* UIColor + extensions.swift */; };
 		0FAA1E9120171D7C009A0276 /* UIViewController + extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAA1E9020171D7C009A0276 /* UIViewController + extensions.swift */; };
 		0FE1797C201CF2F400559D3D /* All Star Resort.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FE1797B201CF2F300559D3D /* All Star Resort.ttf */; };
+		0FE17983201D110800559D3D /* SIgnInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE17982201D110800559D3D /* SIgnInVC.swift */; };
+		0FE17985201D112900559D3D /* FirstPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FE17984201D112900559D3D /* FirstPageVC.swift */; };
 		94BA5F024EA4A3632608CF19 /* Pods_valleyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7183E00AC25F0CBCC3F1745 /* Pods_valleyApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F06E923201D26EA007F620C /* CreateActVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateActVC.swift; sourceTree = "<group>"; };
+		0F2AB3D2201D9BA200105B4B /* DataServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataServices.swift; sourceTree = "<group>"; };
+		0F2AB3D4201DA27500105B4B /* objectClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = objectClasses.swift; sourceTree = "<group>"; };
+		0F2AB3D6201E1C8800105B4B /* UITextField + extesions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField + extesions.swift"; sourceTree = "<group>"; };
 		0F2CF1642017F57B00C00866 /* campusAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = campusAnnotations.swift; sourceTree = "<group>"; };
 		0F9299332016B7EC005EC04D /* valleyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = valleyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F9299362016B7EC005EC04D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +68,8 @@
 		0FAA1E8E201713B1009A0276 /* UIColor + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + extensions.swift"; sourceTree = "<group>"; };
 		0FAA1E9020171D7C009A0276 /* UIViewController + extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + extensions.swift"; sourceTree = "<group>"; };
 		0FE1797B201CF2F300559D3D /* All Star Resort.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All Star Resort.ttf"; sourceTree = "<group>"; };
+		0FE17982201D110800559D3D /* SIgnInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIgnInVC.swift; sourceTree = "<group>"; };
+		0FE17984201D112900559D3D /* FirstPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageVC.swift; sourceTree = "<group>"; };
 		4D8AD1A93B4EC816F3215C96 /* Pods-valleyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-valleyApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-valleyApp/Pods-valleyApp.debug.xcconfig"; sourceTree = "<group>"; };
 		B7183E00AC25F0CBCC3F1745 /* Pods_valleyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_valleyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC1D83AFE68B7E1DDF826DB7 /* Pods-valleyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-valleyApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-valleyApp/Pods-valleyApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -96,21 +108,19 @@
 		0F9299352016B7EC005EC04D /* valleyApp */ = {
 			isa = PBXGroup;
 			children = (
+				0FE17981201D01DA00559D3D /* Layout */,
+				0FE1797E201D00DA00559D3D /* Classes */,
+				0FE1797D201D00C500559D3D /* View Controllers */,
+				0FE1797F201D010F00559D3D /* Extensions */,
 				0FAA1E742016BE7C009A0276 /* GeoFire */,
-				0F9299362016B7EC005EC04D /* AppDelegate.swift */,
-				0F9299382016B7EC005EC04D /* ViewController.swift */,
-				0F92993A2016B7EC005EC04D /* Main.storyboard */,
 				0F9299402016B7EC005EC04D /* Assets.xcassets */,
-				0FE1797B201CF2F300559D3D /* All Star Resort.ttf */,
-				0F9299422016B7EC005EC04D /* LaunchScreen.storyboard */,
-				0F92994B2016BA10005EC04D /* GoogleService-Info.plist */,
-				0F9299452016B7EC005EC04D /* Info.plist */,
-				0F92993D2016B7EC005EC04D /* valleyApp.xcdatamodeld */,
+				0F2AB3D4201DA27500105B4B /* objectClasses.swift */,
+				0F2AB3D2201D9BA200105B4B /* DataServices.swift */,
 				0FAA1E8B2016C25C009A0276 /* PokeFinder-Bridge-Header.h */,
-				0FAA1E8C20170E4E009A0276 /* UIView + extensions.swift */,
-				0FAA1E8E201713B1009A0276 /* UIColor + extensions.swift */,
-				0FAA1E9020171D7C009A0276 /* UIViewController + extensions.swift */,
-				0F2CF1642017F57B00C00866 /* campusAnnotations.swift */,
+				0F9299452016B7EC005EC04D /* Info.plist */,
+				0F92994B2016BA10005EC04D /* GoogleService-Info.plist */,
+				0F92993D2016B7EC005EC04D /* valleyApp.xcdatamodeld */,
+				0FE1797B201CF2F300559D3D /* All Star Resort.ttf */,
 			);
 			path = valleyApp;
 			sourceTree = "<group>";
@@ -151,6 +161,46 @@
 				0FAA1E852016BE7C009A0276 /* GFCircleQuery.h */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		0FE1797D201D00C500559D3D /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F9299382016B7EC005EC04D /* ViewController.swift */,
+				0FE17982201D110800559D3D /* SIgnInVC.swift */,
+				0FE17984201D112900559D3D /* FirstPageVC.swift */,
+				0F06E923201D26EA007F620C /* CreateActVC.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0FE1797E201D00DA00559D3D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0F2CF1642017F57B00C00866 /* campusAnnotations.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0FE1797F201D010F00559D3D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0FAA1E8C20170E4E009A0276 /* UIView + extensions.swift */,
+				0FAA1E8E201713B1009A0276 /* UIColor + extensions.swift */,
+				0FAA1E9020171D7C009A0276 /* UIViewController + extensions.swift */,
+				0F2AB3D6201E1C8800105B4B /* UITextField + extesions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0FE17981201D01DA00559D3D /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				0F9299362016B7EC005EC04D /* AppDelegate.swift */,
+				0F9299422016B7EC005EC04D /* LaunchScreen.storyboard */,
+				0F92993A2016B7EC005EC04D /* Main.storyboard */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 		142EAB04474C51B049A464B5 /* Pods */ = {
@@ -290,9 +340,12 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-valleyApp/Pods-valleyApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/PMAlertController/PMAlertController.framework",
 				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SteviaLayout/Stevia.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/YPImagePicker/YPImagePicker.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
@@ -300,9 +353,12 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PMAlertController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Stevia.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YPImagePicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -318,17 +374,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F2AB3D5201DA27500105B4B /* objectClasses.swift in Sources */,
 				0FAA1E8D20170E4E009A0276 /* UIView + extensions.swift in Sources */,
+				0F2AB3D7201E1C8800105B4B /* UITextField + extesions.swift in Sources */,
 				0FAA1E862016BE7D009A0276 /* GFBase32Utils.m in Sources */,
 				0F9299392016B7EC005EC04D /* ViewController.swift in Sources */,
 				0FAA1E8A2016BE7D009A0276 /* GFGeoHash.m in Sources */,
+				0FE17985201D112900559D3D /* FirstPageVC.swift in Sources */,
 				0F92993F2016B7EC005EC04D /* valleyApp.xcdatamodeld in Sources */,
 				0FAA1E8F201713B1009A0276 /* UIColor + extensions.swift in Sources */,
 				0F9299372016B7EC005EC04D /* AppDelegate.swift in Sources */,
 				0FAA1E872016BE7D009A0276 /* GeoFire.m in Sources */,
 				0FAA1E9120171D7C009A0276 /* UIViewController + extensions.swift in Sources */,
 				0F2CF1652017F57B00C00866 /* campusAnnotations.swift in Sources */,
+				0F2AB3D3201D9BA200105B4B /* DataServices.swift in Sources */,
 				0FAA1E882016BE7D009A0276 /* GFGeoHashQuery.m in Sources */,
+				0F06E924201D26EA007F620C /* CreateActVC.swift in Sources */,
+				0FE17983201D110800559D3D /* SIgnInVC.swift in Sources */,
 				0FAA1E892016BE7D009A0276 /* GFQuery.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -53,5 +53,13 @@
 	<array>
 		<string>All Star Resort.ttf</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>One V Would like to access your camera</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>One V Would like to access your library</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>One V Would like to access your microphone</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>One V Would like to access your photos</string>
 </dict>
 </plist>
